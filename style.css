@@ -1,0 +1,72 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+
+}
+
+  .conteiner{
+    position: relative;
+    top: 20px;
+    left: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 90vh ;
+    width: 110vh;
+    padding: 20px;
+  }
+
+.logo{
+  top: 10px;
+  width: 200px;
+  text-align: center;
+}
+.testo-logo{
+  top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #00dd00;
+}
+.prenotazioni{
+  margin: 10px;
+}
+
+.pulsanti{
+  background-color: #00dd00;
+  padding: 10px;
+  margin: 10px;
+}
+
+main{
+  text-align: left;
+  color: white;
+}
+
+#carica{
+  color:#00dd00;
+  background-color:#00dd00;
+  height: 20px;
+
+
+}
+#media{
+  margin-left: auto;
+  margin-right: 50%;
+  background-color:yellow;
+  height: 20px;
+}
+#scarica{
+  margin-left: auto;
+  margin-right: 80%;
+  background-color:red;
+  border-color: red;
+  height: 20px;
+}
